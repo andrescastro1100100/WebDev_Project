@@ -408,8 +408,8 @@ if (isset($_POST['actualizar_vuelo'])) {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com'; // Replace with your SMTP server
             $mail->SMTPAuth = true;
-            $mail->Username = 'proyectodesarrolloweb2023@gmail.com'; // Replace with your email
-            $mail->Password = 'bllswkgcqcjyeasb'; // Replace with your email password
+            $mail->Username = ''; // Replace with your email
+            $mail->Password = ''; // Replace with your email password
             $mail->SMTPSecure = 'ssl'; // Use 'ssl' if required by your SMTP server
             $mail->Port = 465;
 
